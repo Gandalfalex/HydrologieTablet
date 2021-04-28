@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HydrologieTablet", "HydrologieTablet\HydrologieTablet.csproj", "{B399C8C7-9232-4398-86BA-9E303520A5BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B399C8C7-9232-4398-86BA-9E303520A5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B399C8C7-9232-4398-86BA-9E303520A5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B399C8C7-9232-4398-86BA-9E303520A5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B399C8C7-9232-4398-86BA-9E303520A5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB8AB519-BB86-414E-A552-34D2ABAF34B4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ai_screen_game_eng" xml:space="preserve">
+    <value>TRY TO BEAT THE AI IN HYDROLOGY</value>
+  </data>
+  <data name="ai_screen_game_ger" xml:space="preserve">
+    <value>SCHLAG DIE KI IN DER HYDROLOGIE</value>
+  </data>
+  <data name="game_headline_eng" xml:space="preserve">
+    <value>WHO GROWS THE MOST TOMATOES?</value>
+  </data>
+  <data name="game_headline_ger" xml:space="preserve">
+    <value>WER ERNTET DIE MEISTEN TOMATEN?</value>
+  </data>
+  <data name="game_text_eng_end" xml:space="preserve">
+    <value>game, you can reduce the usual water consumption
+for the cultivation of tomato plants by using targeted watering.
+This strategy decreases agricultural water consumption by
+almost 50 per cent! Divide the 300 millimetres of available
+water between 15 weeks and try to achieve the highest yield in
+a tomato field.</value>
+  </data>
+  <data name="game_text_eng_gamename" xml:space="preserve">
+    <value>Try to beat the AI in
+Hydrology</value>
+  </data>
+  <data name="game_text_eng_start" xml:space="preserve">
+    <value>Achieving high yields with little water is not easy. In the
+course of their growth, plants react differently to drought
+stress, weather, and soil conditions. In the</value>
+  </data>
+  <data name="game_text_ger_end" xml:space="preserve">
+    <value>den üblichen
+Wasserverbrauch bei der Kultivierung von Tomatenpflanzen
+durch gezieltes Gießen senken. Der Landwirtschaft ermöglicht
+diese Strategie, den Wasserverbrauch nahezu zu halbieren!
+Teile die 300 Millimeter verfügbares Wasser in zehn
+Wassergaben über 15 Wochen auf und versuche, auf einem
+Tomatenfeld den höchsten Ertrag zu erreichen.</value>
+  </data>
+  <data name="game_text_ger_gamename" xml:space="preserve">
+    <value>Schlag die
+Künstliche Intelligenz (KI) in der Hydrologie </value>
+  </data>
+  <data name="game_text_ger_start" xml:space="preserve">
+    <value>Es ist nicht einfach, mit wenig Wasser hohe Erträge zu
+erreichen. Pflanzen reagieren im Laufe ihres Wachstums
+ganz unterschiedlich auf Trockenstress, Wetter und
+Bodenverhältnisse. Du kannst im Spiel </value>
+  </data>
+  <data name="play_eng" xml:space="preserve">
+    <value>LET'S PLAY</value>
+  </data>
+  <data name="play_ger" xml:space="preserve">
+    <value>LOS GEHT'S</value>
+  </data>
+  <data name="table_description_eng" xml:space="preserve">
+    <value>Water consumption for the production of 100 grams of food</value>
+  </data>
+  <data name="table_description_ger" xml:space="preserve">
+    <value>Wasserverbrauch für die Produktion von je 100 Gramm Lebensmitteln</value>
+  </data>
+  <data name="water_eng_headline" xml:space="preserve">
+    <value>LITRES PER INHABITANT</value>
+  </data>
+  <data name="water_eng_text" xml:space="preserve">
+    <value>A water footprint is the total amount of water used by the 
+inhabitants of a country through the direct consumption of 
+drinking water and the indirect use of water for agricultural 
+or industrial products. When divided by the number of 
+inhabitants of the country, a personal water footprint emerges. 
+The global average is 1,240 cubic metres per capita and year. 
+In Germany, the consumption is 1,545 cubic metres, which 
+means 4,230 litres per day. The global water footprint is
+ 7,450 billion cubic metres per year. Food and other agricultural 
+products account for the largest share, amounting 
+to 86 per cent.</value>
+  </data>
+  <data name="water_ger_headline" xml:space="preserve">
+    <value>LITER PRO EINWOHNER</value>
+  </data>
+  <data name="water_ger_text" xml:space="preserve">
+    <value>Unter dem Wasserfußabdruck versteht man die gesamte 
+Wassermenge, die von den Einwohnern eines Landes 
+beansprucht wird – durch direkten Trinkwasserverbrauch 
+und die indirekte Nutzung von Wasser für landwirtschaftliche 
+oder industrielle Produkte. Umgerechnet auf die Zahl der 
+Einwohner/innen des Landes erhält man den persönlichen 
+Wasserfußabdruck. Der weltweite Durchschnittswert liegt bei 
+1.240 Kubikmeter pro Kopf und Jahr. In Deutschland sind es 
+1.545 Kubikmeter, das heißt 4.230 Liter pro Person und Tag. Der 
+globale Wasserfußabdruck beträgt 7.450 Milliarden Kubikmeter 
+pro Jahr. Nahrungsmittel und andere landwirtschaftliche 
+Produkte haben mit 86 Prozent den höchsten Anteil daran.</value>
+  </data>
+</root>

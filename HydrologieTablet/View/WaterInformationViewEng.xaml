@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="HydrologieTablet.View.WaterInformationViewEng"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HydrologieTablet.View"
+             xmlns:resx="clr-namespace:HydrologieTablet.Properties"
+             mc:Ignorable="d" 
+             d:DesignHeight="1200" d:DesignWidth="1920">
+
+
+
+
+    <Grid Background="Black">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140"/>
+            <!--start-->
+            <!--#region Text contains region 1 to 3, Information Symbol only 1, Change Language Button 1 and 2-->
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="270"/>
+            <ColumnDefinition Width="420"/>
+            <!--#endregion-->
+            <!--spacer-->
+            <ColumnDefinition Width="60"/>
+            <!--#region information table -->
+            <ColumnDefinition Width="790"/>
+            <!--#endregion-->
+            <ColumnDefinition Width="140"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <!--with column 1 will be the information symbol-->
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="480"/>
+            <!-- With Column 1 and 2 contains the change language button-->
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="140"/>
+        </Grid.RowDefinitions>
+
+        <!--#region  left Half-->
+        <!--Information Symbol-->
+        <DockPanel Grid.Column="1" Grid.Row="0" Background="Black">
+            <Image>
+                <Image.Source>
+                    <BitmapImage UriSource="/Resource/Images/information_symbol.jpg" />
+                </Image.Source>
+            </Image>
+        </DockPanel>
+
+        <!--Headline-->
+        <DockPanel Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBlock FontFamily="/Resource/Fonts/#URW DIN" FontStyle="Italic"
+                       Text="{x:Static resx:Resources.water_eng_headline}"
+                       FontWeight="Bold" TextWrapping="Wrap" Foreground="#abd2ed" FontSize="57" />
+        </DockPanel>
+
+        <!--Maintext-->
+        <DockPanel Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3">
+            <TextBlock FontFamily="/Resource/Fonts/#URW DIN" FontStyle="Italic" FontWeight="Normal" LineHeight="43"
+                       Text="{x:Static resx:Resources.water_eng_text}"
+                       TextWrapping="Wrap" Foreground="#abd2ed" FontSize="28" />
+        </DockPanel>
+
+        <!--ChangeLanguageButton-->
+        <Button x:Name="chg_Language" Style="{StaticResource ButtonWithoutHoverEffect}"
+                Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2" Background="#abd2ed" Click="SwitchLanguage">
+            <Label Content="DEUTSCH" FontFamily="/Resource/Fonts/#URW DIN" FontWeight="Bold" Foreground="#162d62"
+                   Background="#abd2ed" FontSize="30" HorizontalContentAlignment="Left" Margin="-100,0,0,0"/>
+        </Button>
+        <!--#endregion-->
+
+
+        <!--#region right side-->
+        <!--Table Introduction-->
+        <DockPanel Grid.Column="5" Grid.Row="2" >
+            <TextBlock FontFamily="/Resource/Fonts/#URW DIN"  LineHeight="43"
+                       Text="{x:Static resx:Resources.table_description_eng}"
+                       FontWeight="Bold" TextWrapping="Wrap" Foreground="#abd2ed" FontSize="32" Margin="0,50,230,0"/>
+        </DockPanel>
+        <!--Table-->
+        <DockPanel Grid.Column="5" Grid.ColumnSpan="1" Grid.Row="3" Grid.RowSpan="4" Background="Black">
+            <Image>
+                <Image.Source>
+                    <BitmapImage UriSource="/Resource/Images/water_table_eng.jpg" />
+                </Image.Source>
+            </Image>
+        </DockPanel>
+
+        <Button Style="{StaticResource NormalButtonWithoutEffect_black_background}"
+            x:Name="close" Grid.Column="5" Grid.Row="7" Width="50" Height="50" HorizontalAlignment="Right" 
+                VerticalAlignment="Top" Click="ReturnToMainMenu" Background="Black" BorderBrush="Black" BorderThickness="3">
+            <StackPanel>
+                <Image>
+                    <Image.Source>
+                        <BitmapImage UriSource="/Resource/Images/CloseWindowBtn.jpg" />
+                    </Image.Source>
+                </Image>
+            </StackPanel>
+        </Button>
+
+
+        
+
+    </Grid>
+</UserControl>

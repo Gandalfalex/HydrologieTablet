@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+   
+    <FontFamily x:Key="urw_german">pack://application:,,,HydrologieTablet; component/Resource/Fonts/#URW DIN Bold</FontFamily>
+    <FontFamily x:Key="urw_font">pack://application:,,,HydrologieTablet; component/Resource/Fonts/#URW DIN</FontFamily>
+   
+
+
+</ResourceDictionary>
